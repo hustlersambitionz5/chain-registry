@@ -1,0 +1,37 @@
+{
+  "id": "coinmarketcap",
+  "name": "CoinMarketCap",
+  "url": "https://coinmarketcap.com",
+  "apiEndpoint": "https://pro-api.coinmarketcap.com/v1",
+  "dataPoints": [
+    "price",
+    "market-cap",
+    "volume-24h",
+    "market-cap-rank",
+    "dominance",
+    "metadata",
+    "quotes"
+  ],
+  "updateFrequency": "real-time",
+  "supportedCurrencies": [
+    "BTC",
+    "ETH",
+    "BNB",
+    "XRP",
+    "ADA",
+    "SOL",
+    "DOT",
+    "DOGE",
+    "MATIC",
+    "AVAX"
+  ],
+  "rateLimit": {
+    "requests": 333,
+    "period": "1d",
+    "tier": "free"
+  },
+  "authentication": {
+    "type": "api-key",
+    "required": true
+  }
+}
