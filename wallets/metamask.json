@@ -1,0 +1,54 @@
+{
+  "id": "metamask",
+  "name": "MetaMask",
+  "description": "A crypto wallet & gateway to blockchain apps. Connect to Web3 and discover decentralized finance, NFTs, DAOs, and more.",
+  "website": "https://metamask.io",
+  "logo": "https://raw.githubusercontent.com/MetaMask/brand-resources/master/SVG/metamask-fox.svg",
+  "type": "browser-extension",
+  "supportedChains": [
+    "eip155-1",
+    "eip155-5",
+    "eip155-11",
+    "eip155-42",
+    "eip155-137",
+    "eip155-80001"
+  ],
+  "supportedInterfaces": [
+    "evm"
+  ],
+  "features": [
+    "token-swap",
+    "nft-support",
+    "dapp-browser",
+    "multi-chain",
+    "hardware-wallet-support"
+  ],
+  "security": {
+    "hasAudit": true,
+    "auditLink": "https://blog.metamask.io/metamask-security-audits/",
+    "openSource": true,
+    "githubRepository": "https://github.com/MetaMask"
+  },
+  "platforms": {
+    "chrome": {
+      "available": true,
+      "storeLink": "https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn"
+    },
+    "firefox": {
+      "available": true,
+      "storeLink": "https://addons.mozilla.org/firefox/addon/ether-metamask/"
+    },
+    "ios": {
+      "available": true,
+      "appStore": "https://apps.apple.com/app/metamask/id1438144202"
+    },
+    "android": {
+      "available": true,
+      "playStore": "https://play.google.com/store/apps/details?id=io.metamask"
+    }
+  },
+  "contact": {
+    "twitter": "https://twitter.com/MetaMask",
+    "discord": "https://discord.gg/metamask"
+  }
+}
